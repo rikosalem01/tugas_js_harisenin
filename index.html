@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Calligraffitti&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="splash">
+      <img src="assets/nikegif.gif" alt="" />
+    </div>
+
+    <nav>
+      <div class="logo">
+        <h4>Snealic</h4>
+      </div>
+
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#product">Product</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-toggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+
+    <div class="newBox" id="newBox">
+      <div class="productBox" id="productBox1">
+        <a onclick="index.html">Close</a>
+        <img src="assets/nike1.png" alt="" />
+        <div class="detailBox">
+          <div class="titleBox">nike running</div>
+          <div class="descriptionBox">for good runner</div>
+          <div class="price">1.000K</div>
+          <div class="price2">now only 750K</div>
+        </div>
+      </div>
+      <div class="productBox" id="productBox2">
+        <a href="index.html">Close</a>`
+        <img src="assets/nike2.png" alt="" />
+        <div class="detailBox">
+          <div class="titleBox">nike running v2</div>
+          <div class="descriptionBox">for good runner</div>
+          <div class="price">1250K</div>
+          <div class="price2">now only 850K</div>
+        </div>
+      </div>
+
+
+    <div class="container">
+      <div class="cta">
+        <model-viewer src="assets/scene.gltf" camera-controls camera-orbit="45deg 50deg" disable-zoom auto-rotate shadow-intensity="2"></model-viewer>
+      </div>
+
+      <div class="welcome">
+        <h1>grab it fast!!</h1>
+      </div>
+      <div class="branding">
+        <div class="brand">
+          <div class="brand-box">
+            <img src="/assets/adidaslogo.png" alt="" />
+          </div>
+        </div>
+        <div class="brand">
+          <div class="brand-box">
+            <img src="/assets/nblogo.png" alt="" />
+          </div>
+        </div>
+        <div class="brand">
+          <div class="brand-box">
+            <img src="/assets/nikelogo.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="welcome2">
+        <h1>our product in sale off30%</h1>
+      </div>
+
+      <div class="wrapper" id="wrapper">
+        <div class="card">
+          <div class="product" id="product1" onclick="getDetail(1)">
+            <img src="assets/nike1.png" alt="" srcset="" />
+          </div>
+          <div class="detail">
+            <div class="title">nike running</div>
+            <div class="description">for good perform</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="product" id="product2" onclick="getDetail(2)">
+            <img src="assets/nike2.png" alt="" srcset="" />
+          </div>
+          <div class="detail">
+            <div class="title">nike running v.2</div>
+            <div class="description">new arrival</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="product" id="product3" onclick="getDetail(3)">
+            <img src="assets/nike3.png" alt="" srcset="" />
+          </div>
+          <div class="detail">
+            <div class="title">nike woman</div>
+            <div class="description">best for gym</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="product" id="product4" onclick="getDetail(4)">
+            <img src="assets/nike4.png" alt="" srcset="" />
+          </div>
+          <div class="detail">
+            <div class="title">nike max v.5</div>
+            <div class="description">nike max</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="product" id="product5" onclick="getDetail(5)">
+            <img src="assets/nike5.png" alt="" srcset="" />
+          </div>
+          <div class="detail">
+            <div class="title">nike stevan janoski</div>
+            <div class="description">new design for nike stevan janoski</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="product" id="product6" onclick="getDetail(6)">
+            <img src="assets/nike6.png" alt="" srcset="" />
+          </div>
+          <div class="detail">
+            <div class="title">nike new arival</div>
+            <div class="description">nike for alien</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="preview-box">
+      <div class="details">
+        <span class="title"></span>
+      </div>
+    </div>
+
+    <div class="top-item" id="contact">
+      <div class="top-item-wrapper">
+        <div class="top-item-row">
+          <!-- <div class="top-item-col"> -->
+          <img src="assets/nike1.png" alt="" srcset="" />
+          <div class="top-item-detail">
+            <h3>nike running</h3>
+            <p>best shoes that was used by Erling Haaland</p>
+          </div>
+          <!-- </div> -->
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script src="tweak.js"></script>
+  </body>
+</html>
